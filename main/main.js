@@ -1,6 +1,5 @@
-
 module.exports = function main(i) {
-	var result;
+	var result=0;
 	for(var a=0;a<i.length;a++){
 		result =result + parseInt(i[a]);
 	}
